@@ -1,0 +1,13 @@
+{
+	"name": "@zdreamer2/pi-plugin-ai-marketplace",
+	"version": "26.10.23233512",
+	"description": "Ai plugins marketplace development",
+	"keywords": [
+		"pi-package"
+	],
+	"pi": {
+		"skills": [
+			"./skills/ai-marketplace"
+		]
+	}
+}
