@@ -1,10 +1,10 @@
-# ai-doc:ref
+# ai-doc-ref
 
 Prints ai-doc plugin documents by short name.
 
 ## Usage
 
-`/skill:ai-doc-ref <name>`
+`/skill:ai-doc-ai-doc-ref <name>`
 
 ## Available references
 

@@ -1,6 +1,6 @@
 {
 	"name": "@zdreamer2/pi-plugin-ai-doc",
-	"version": "26.10.30182024",
+	"version": "26.10.31162018",
 	"description": "AiDoc: создание, улучшение и поддержка документации для AI-агентов",
 	"keywords": [
 		"pi-package"
@@ -8,7 +8,7 @@
 	"pi": {
 		"skills": [
 			"./skills/ai-doc",
-			"./skills/ref"
+			"./skills/ai-doc-ref"
 		]
 	}
 }

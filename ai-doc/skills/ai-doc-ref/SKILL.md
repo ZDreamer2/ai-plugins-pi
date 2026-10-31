@@ -1,5 +1,5 @@
 ---
-name: ai-doc-ref
+name: ai-doc-ai-doc-ref
 description: Internal
 disable-model-invocation: false
 ---
