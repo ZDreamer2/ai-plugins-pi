@@ -1,6 +1,6 @@
 ---
 name: ai-marketplace
-description: 'Guides AI plugin marketplace development and source collaboration. Use for marketplace sources, plugins, distribution configuration, or source synchronization.'
+description: 'Guides AI plugin marketplace development, local compilation, repository configuration and source collaboration. Use for marketplace sources, plugins, local distributions, delivery configuration, or source synchronization.'
 disable-model-invocation: false
 ---
 
@@ -12,17 +12,24 @@ Classify the user's intent and dispatch to the right handler.
 
 ## Commands
 
-- `/skill:ai-marketplace develop <request>` - Dispatch to `Develop`
+- `/skill:ai-marketplace build <request>` - Dispatch to `Build`
+- `/skill:ai-marketplace compile <request>` - Dispatch to `Compile`
 - `/skill:ai-marketplace configure <request>` - Dispatch to `Configure`
 - `/skill:ai-marketplace sync <request>` - Dispatch to `Sync`
 
 ## Workflows
 
-### Develop
+### Build
 
 Plan or implement marketplace sources, plugins, builder behavior or generated distributions.
 
 Follow the [marketplace planning guidance](../../codebase/on-plan.md) before planning and the [marketplace build guidance](../../codebase/on-build.md) before implementation.
+
+### Compile
+
+Compile Claude, Codex and Pi distributions from the current source working tree and validate the Pi result without committing, pushing or publishing.
+
+Follow the [marketplace local compilation workflow](workflows/compile/do.md).
 
 ### Configure
 
